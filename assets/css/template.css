@@ -329,6 +329,37 @@ footer .widget_title_text {
     background-color: #39aae1;
 }
 
+.widget_subTitle{
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.contats {
+    display: flex;
+    align-items: center;  
+    padding: 10px;
+    border-top: 1px solid #dadada;
+    font-size: 14px;
+}
+
+.contats a {
+    color: #2b4c99;
+}
+
+#ct_3 {
+    border-bottom: 1px solid #dadada;
+}
+
+.contats img {
+    height: 20px;
+}
+
+.icon {
+    margin-right: 10px;
+    background-color: #dadada;
+    padding: 4px;
+}
+
 @media (max-width: 600px) {
 
     .banner_headline {
