@@ -268,7 +268,8 @@ footer {
 
 .fm_1, .fm_2, .fm_3 {
     flex: 1;
-    color: #FFFFFF;  
+    color: #FFFFFF;
+    font-size: 21px;  
 }
 
 .fm_1 {
@@ -281,6 +282,10 @@ footer {
 
 .fm_3 {
     background-color: #004d99;
+}
+
+.fm_subtitle {
+    font-size: 13px;
 }
 
 .footer_menu a {
@@ -358,6 +363,51 @@ footer .widget_title_text {
     margin-right: 10px;
     background-color: #dadada;
     padding: 4px;
+}
+
+.area_item_1,
+.area_item_2,
+.area_item_3 {
+    color: #5c5c5c;
+    font-size: 14px;
+}
+
+.area_item_1 ul,
+.area_item_2 ul,
+.area_item_3 ul {
+    padding: 0;
+}
+
+.area_item_2,
+.area_item_3 {
+    color: #5c5c5c;
+}
+
+.area_item_2 ul li,
+.area_item_3 ul li {
+    list-style-type: none;
+}
+
+.li_email {
+    color: #FFFFFF;
+}
+
+.items_desc {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.items_desc a {  
+    text-decoration: none;
+}
+
+.item_ds {
+    color: #FFFFFF;
+}
+
+.item_time {
+    color: #39aae1;
+    font-size: 12px;
 }
 
 @media (max-width: 600px) {
